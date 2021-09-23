@@ -1,2 +1,0 @@
-# LGMVIP-WebDev
-Internship Project
