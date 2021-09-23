@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josh", sans-serif;
+}
+.html{
+    font-size:62.5%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.navbar-main{
+    position:absolute;
+    width:100%;
+    height:5rem;
+    top:0;
+    display:grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 5rem;
+    box-shadow: 0 0 20px #000000;
+    z-index:10;
+}
+.page-logo{
+    display:flex;
+    background-color:none;
+    grid-column: 2/3;
+    justify-content:start;
+    align-items: center;
+}
+.navbar-navigate-links{
+    grid-column:3/4;
+}
+.navbar-navigate-links ul{
+    height:5rem;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:2px;
+}
+.navbar-navigate-links ul li a{
+    text-transform: capitalize;
+    font-size:20px;
+    font-weight:800;
+    color:black;
+    padding:5px 10px;
+    letter-spacing: 1px;
+}
+.navbar-navigate-links ul li a:hover{
+    color: #ffffff;
+    background:#000000;
+    display:block;
+    border-radius:5px;
+}
+.button-container{
+    grid-column: 4/5;
+    height:5rem;
+    display:grid;
+    justify-content:space-around;
+    align-items:center;
+}
+.button-container .get-user-btn{
+    padding:0.5rem 1rem;
+    color:#ffffff;
+    font-size:18px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.get-user-btn:hover{
+    background-color:red;
+    letter-spacing: 1px;
+    font-size:20px;
+    cursor: pointer;
+    
+}
+.hero-page-container .bg-img-container{
+    width:100%;
+    height:100%;
+  
+
+}
+.hero-page-container .bg-img-container img{
+    width:100%;
+    height:105vh;
+    object-fit:cover;
+    background-size: 100% 100%;
+    background-position: 0 500px;
+}
+.intro-page-welcome{
+    position:absolute;
+    color:black;
+    text-align: center;
+    top:37%;
+    left:28%;
+    background: none;
+}
+.intro-page-welcome p{
+    font-size:50px;
+    font-weight:600;
+    background:none;
+
+}
+.intro-page-welcome p h2{
+    background:none;
+}
+.intro-page-welcome h1{
+    font-size:30px;
+    font-weight:600;
+
+}
+
+  h3 {
+    color: #000;
+  }
+  .User-Card-Section{
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtVc5BvO0lmrJaCzgLC3ZiuAnBSGPPRWS_OdBqMrQs1eFHq02qa5-cgRf5uUPOtIT7qM&usqp=CAU");
+      background-color: #fff;
+      background-repeat:no-repeat;
+      object-fit: cover;
+      background-size: cover;  
+      text-align: center;
+    }
+    .User-Card-Section h2{
+        padding:20px;
+        font-size:40px;
+        font-weight:550;
+        padding-bottom: 10px;
+    }
+  
+
+  .Display_Card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 45px;
+    padding: 10px 170px;
+  
+  }
+  
+  .Card_Container{
+    padding: 0.8rem;
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:white;
+    border-radius: 10px;
+    border:1px solid rgb(119, 119, 119);
+    height:380px;
+    width:300px;
+    
+  }
+  .Card_Container:hover {
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.05);
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(0, 0, 1, 0.12);
+  }
+  .Profile_Picture img {
+    border-radius: 10px;
+    margin: 1rem 0rem 1rem 0rem;
+    height:150px;
+    width: 150px;
+  }
+  .User_info{
+      padding:10px;
+  }
+  .Social_Media{
+    height:60px;
+    width:300px;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    padding:10px;
+    padding-left:38px;
+    gap:25px;
+}
+.Social_Media img{
+    height:100%;
+    width:100%;
+    border:none;
+}
+
+  .fetch_Data {
+    color: rgb(4, 6, 7);
+    font-weight: 550;
+    font-size: 35px;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtVc5BvO0lmrJaCzgLC3ZiuAnBSGPPRWS_OdBqMrQs1eFHq02qa5-cgRf5uUPOtIT7qM&usqp=CAU");
+
+}
